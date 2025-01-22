@@ -26,6 +26,10 @@ namespace Carrefour_Exercice_Git_Avance
             {
                 Vitesse -= 2;
             } 
+            if ( vitesse < 0)
+            {
+                vitesse = 0 ;
+            }
         }
 
         public void Reculer()
